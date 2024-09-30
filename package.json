@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy build --output public"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0-alpha.13",
