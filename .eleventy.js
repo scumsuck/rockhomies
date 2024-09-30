@@ -10,6 +10,7 @@ const mathjax3 = require("markdown-it-mathjax3");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const terser = require("terser");
 const CleanCSS = require("clean-css");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -20,7 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(navigationPlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
-
+  eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });

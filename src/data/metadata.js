@@ -1,11 +1,11 @@
 module.exports = {
-  title: "Eleventy Academic Blog Template",
-  url: "https://example.com/",
+  title: "Rock Homies Web Directory | Listing",
+  url: "https://scumsuck.com/",
   language: "en",
-  description: "My publications in web format",
+  description: "A web directory/listing for fans and artists of rock + metal music",
   author: {
-    name: "John Doe",
-    email: "johndoe@example.com",
-    url: "https://example.com/",
+    name: "SCUMSUCK",
+    email: "contact@scumsuck.com",
+    url: "https://scumsuck.com/",
   },
 };
