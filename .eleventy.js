@@ -49,6 +49,7 @@ module.exports = function (eleventyConfig) {
   md = new MarkdownIt({
     typographer: true,
     linkify: true,
+    html: true
   });
 
   md.use(markdownItBiblatex, {
