@@ -7,7 +7,7 @@ date: 2024-06-22
 author: Jane Doe
 eleventyNavigation:
   key: SCUMSUCK
-  parent: Directory
+  parent: directory
 ---
 
 [[toc]]

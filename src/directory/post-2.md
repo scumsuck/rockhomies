@@ -6,7 +6,7 @@ imageAlt: "Monochrome image of a building"
 date: 2024-06-29
 eleventyNavigation:
   key: Post 2
-  parent: Posts
+  parent: directory
 ---
 
 ## Vix semper

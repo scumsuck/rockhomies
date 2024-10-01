@@ -1,8 +1,8 @@
 {
   "layout": "post.njk",
-  "tags": "posts",
+  "tags": "post",
   "eleventyNavigation": {
     "key": "{{ title }}",
-    "parent": "posts"
+    "parent": "directory"
   }
 }

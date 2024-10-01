@@ -1,6 +1,6 @@
 ---
 layout: "post.njk"
-title: "Credits | Rock Homies Web Directory"
+title: "Credits | Rock Homies"
 description: "Credits for making this site."
 ---
 
