@@ -6,6 +6,7 @@ imageAlt: "Monochrome image of a building"
 date: 2024-06-22
 author: Jane Doe
 site: "https://scumsuck.com"
+favs: "Queen, The Darkness, Steel Panther, Morbid Angel"
 eleventyNavigation:
   key: SCUMSUCK
   parent: Directory
@@ -14,7 +15,4 @@ eleventyNavigation:
 [[toc]]
 
 ## Fast Facts
-Name: scumsuck
-Site: https://scumsuck.com
-Fav bands: Queen, The Darkness, Steel Panther, Morbid Angel
-
+### penus

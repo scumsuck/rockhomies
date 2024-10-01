@@ -4,7 +4,7 @@
 	<subtitle>A web directory and fan listing for fans and artists of rock + metal music</subtitle>
 	<link href="https://scumsuck.com/feed.xml" rel="self"/>
 	<link href="https://scumsuck.com/"/>
-	<updated>2024-10-01T04:58:22Z</updated>
+	<updated>2024-10-01T05:07:35Z</updated>
 	<id>https://scumsuck.com/</id>
 	<author>
 		<name>SCUMSUCK</name>
@@ -16,7 +16,9 @@
 		<link href="https://scumsuck.com/directory/deflectric/"/>
 		<updated>2024-08-29T00:00:00Z</updated>
 		<id>https://scumsuck.com/directory/deflectric/</id>
-		<content type="html">&lt;h2 id=&quot;vix-semper&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://scumsuck.com/directory/deflectric/#vix-semper&quot;&gt;Vix semper&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;table-of-contents&quot;&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://scumsuck.com/directory/deflectric/#fast-facts&quot;&gt;Fast Facts&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h2 id=&quot;fast-facts&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://scumsuck.com/directory/deflectric/#fast-facts&quot;&gt;Fast Facts&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;penus&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://scumsuck.com/directory/deflectric/#penus&quot;&gt;penus&lt;/a&gt;&lt;/h3&gt;
 </content>
 	</entry>
 	
@@ -27,9 +29,7 @@
 		<id>https://scumsuck.com/directory/scumsuck/</id>
 		<content type="html">&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;table-of-contents&quot;&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://scumsuck.com/directory/scumsuck/#fast-facts&quot;&gt;Fast Facts&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
 &lt;h2 id=&quot;fast-facts&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://scumsuck.com/directory/scumsuck/#fast-facts&quot;&gt;Fast Facts&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Name: scumsuck
-Site: &lt;a href=&quot;https://scumsuck.com&quot;&gt;https://scumsuck.com&lt;/a&gt;
-Fav bands: Queen, The Darkness, Steel Panther, Morbid Angel&lt;/p&gt;
+&lt;h3 id=&quot;penus&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://scumsuck.com/directory/scumsuck/#penus&quot;&gt;penus&lt;/a&gt;&lt;/h3&gt;
 </content>
 	</entry>
 </feed>

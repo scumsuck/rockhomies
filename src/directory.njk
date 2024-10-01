@@ -10,11 +10,12 @@ eleventyNavigation:
   <li class="post-entry">
     <img src="{{ post.data.image }}">
     <h1 class="post-entry__title">
-      <a href="post.data.site">{{ post.data.title }}</a>
+      <a href="{{ post.data.site }}">{{ post.data.title }}</a>
     </h1>
     <p>{{ post.data.description }}</p>
+    <p>favs: {{ post.data.favs }}</p>
     <p class="post-entry__date">
-      {% if post.data.date %} {{ post.data.date | postDate }} {% endif %}
+      date added: {% if post.data.date %} {{ post.data.date | postDate }} {% endif %}
     </p>
     <hr />
   </li>
