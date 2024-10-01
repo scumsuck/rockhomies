@@ -9,12 +9,15 @@ eleventyNavigation:
 {%- for post in collections.post | reverse -%}
   <li class="post-entry">
     <h1 class="post-entry__title">
-      {{ post.data.title }}
+      {{ post.data.title }}</a>
     </h1>
     <p>{{ post.data.description }}</p>
+    <img src="{{ post.data.image }}">
+    <a href="post.data.site">{{post.data.site}}</a>
     <p class="post-entry__date">
       {% if post.data.date %} {{ post.data.date | postDate }} {% endif %}
     </p>
+    
     <hr />
   </li>
 {%- endfor -%}
