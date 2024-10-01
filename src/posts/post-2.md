@@ -1,7 +1,7 @@
 ---
 title: "Post 2"
 description: "This is a post 2"
-image: "https://images.unsplash.com/photo-1719051363209-b8c0cc108a94?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "https://images.squidge.org/images/2024/09/30/rock2.png"
 imageAlt: "Monochrome image of a building"
 date: 2024-06-29
 eleventyNavigation:

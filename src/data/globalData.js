@@ -2,7 +2,7 @@
 module.exports = {
   navigation: [
     { title: "About", path: "/", fullMatch: true },
-    { title: "Directory", path: "/directory", fullMatch: true },
-    { title: "Credits", path: "/credits" },
+    { title: "Directory", path: "/directory", fullMatch: false },
+    { title: "Credits", path: "/credits", fullMatch: false },
   ],
 };
