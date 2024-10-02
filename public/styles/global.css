@@ -1,3 +1,4 @@
+
 :root {
     --white: #fafafa;
     --black: #191919;
@@ -6,10 +7,20 @@
     --blue: #0070ff;
     --blue-2: #61dcff;
   
+    --ff-metal-header: 'Jabin', serif;
+    --ff-metal-body: 
+    --ff-groovy-header: poop;
     --ff-sans-serif: Roboto, Helvetica, sans-serif;
-    --ff-serif: Garamond, serif;
+    --ff-serif: 'Jabin', Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
     --ff-code: monospace;
   }
+
+  /* Set up the font */
+@font-face {
+  font-family: 'Jabin'; /* We define a name for our font family */
+  src: url(/assets/fonts/Jabin-Typeface.woff2); /* we tell the browser where it is */
+}
+
   
   * {
     box-sizing: border-box;

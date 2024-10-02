@@ -41,6 +41,7 @@ function initThemeHandler() {
 
 function initFontHandler() {
   const style = getComputedStyle(document.body);
+  const metal = style.getPropertyValue("--ff-metal-jabin");
   const sansSerif = style.getPropertyValue("--ff-sans-serif");
   const serif = style.getPropertyValue("--ff-serif");
 

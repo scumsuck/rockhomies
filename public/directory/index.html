@@ -81,6 +81,7 @@
               <div>
   <label for="font">Font</label>
   <select name="font" id="font">
+    <option value="metal">metal</option>
     <option value="sansSerif">sans-serif</option>
     <option value="serif">serif</option>
   </select>
@@ -142,6 +143,6 @@
   </body>
   
   <script>
-  function initThemeHandler(){const e=document.querySelector('select[id="theme"]'),t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light",o=localStorage.getItem("theme"),n=document.querySelector('meta[name="theme-color"]'),a=getComputedStyle(document.body);function r(e){"dark"===e?document.body.classList.add("dark"):document.body.classList.remove("dark");const t=a.getPropertyValue("--clr-background");n.setAttribute("content",t)}e.value=o||"system",r("dark"===o||"light"===o?o:t),e.addEventListener("change",(()=>{"system"===e.value?r(t):r(e.value),localStorage.setItem("theme",e.value)}))}function initFontHandler(){const e=getComputedStyle(document.body),t=e.getPropertyValue("--ff-sans-serif"),o=e.getPropertyValue("--ff-serif"),n=localStorage.getItem("font"),a=document.querySelector('select[id="font"]');function r(e){document.body.style.fontFamily="serif"===e?o:t}"serif"===n&&(r(n),a.value=n),a.addEventListener("change",(()=>{r(a.value),localStorage.setItem("font",a.value)}))}initThemeHandler(),initFontHandler();
+  function initThemeHandler(){const e=document.querySelector('select[id="theme"]'),t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light",o=localStorage.getItem("theme"),a=document.querySelector('meta[name="theme-color"]'),n=getComputedStyle(document.body);function r(e){"dark"===e?document.body.classList.add("dark"):document.body.classList.remove("dark");const t=n.getPropertyValue("--clr-background");a.setAttribute("content",t)}e.value=o||"system",r("dark"===o||"light"===o?o:t),e.addEventListener("change",(()=>{"system"===e.value?r(t):r(e.value),localStorage.setItem("theme",e.value)}))}function initFontHandler(){const e=getComputedStyle(document.body),t=(e.getPropertyValue("--ff-metal-jabin"),e.getPropertyValue("--ff-sans-serif")),o=e.getPropertyValue("--ff-serif"),a=localStorage.getItem("font"),n=document.querySelector('select[id="font"]');function r(e){document.body.style.fontFamily="serif"===e?o:t}"serif"===a&&(r(a),n.value=a),n.addEventListener("change",(()=>{r(n.value),localStorage.setItem("font",n.value)}))}initThemeHandler(),initFontHandler();
   </script>
 </html>
